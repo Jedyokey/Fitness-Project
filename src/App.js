@@ -1,10 +1,15 @@
+import React from 'react'
 import './App.css';
-function App() {
+import Hero from './components/Hero/Hero';
+import Programs from './components/Programs/Programs';
+
+const App = () => {
   return (
-    <div className="App">
-          <span style={{color: 'white'}}>Subscribe Zainkeepscode</span>
+    <div className='App'>
+      <Hero />
+      <Programs />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
