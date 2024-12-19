@@ -71,3 +71,43 @@
     cursor: pointer;
     width: 1.5rem;
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .testimonials {
+       flex-direction: column;
+    }
+    .testimonials 
+    .left-t>:nth-child(2), .testimonials 
+    .left-t>:nth-child(3) {
+        font-size: xx-large;
+    }
+    .testimonials .right-t {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .testimonials 
+    .right-t>:nth-child(1), .testimonials 
+    .right-t>:nth-child(2) {
+        position: relative;
+        display: none;
+    }
+   
+    .testimonials .right-t>img {
+        position: relative;
+        top: 0;
+        right: 0;
+        align-self: center;
+    }
+    .right-t .arrows {
+        display: block;
+        bottom: -55px;
+        left: 36%;
+    }
+    .right-t .arrows>img {
+        padding: 0 7px;
+    }
+}

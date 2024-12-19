@@ -191,4 +191,51 @@
         align-items: center;
         justify-content: center;
     }
+    .hero-left .hero-text div:nth-of-type(3) {
+        font-size: small;
+        font-weight: 200;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    .hero-left .hero-buttons {
+        justify-content: center;
+    }
+    .figures div span:nth-of-type(1) {
+        font-size: large;
+    }
+    .figures div span:nth-of-type(2) {
+        font-size: small;
+    }
+    .hero .hero-right {
+       background: none;
+    }
+    .hero-right .heart-rate {
+        left: 1rem;
+        top: 2rem;
+    }
+    .hero-right .calories {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+    }
+    .calories img {
+        width: 2rem;
+    }
+    .calories span:nth-child(2) {
+        font-size: 1rem;
+    }
+    .hero-right .hero-image {
+        position: relative;
+        top: 4rem;
+        left: 7rem;
+        width: 15rem;
+        height: 7rem;
+        align-self: center;
+    }
+    .hero-right .hero-image-back {
+        position: absolute;
+        top: 0;
+        left: 2rem;
+        z-index: -1;
+    }
 }

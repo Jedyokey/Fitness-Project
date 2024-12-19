@@ -82,3 +82,20 @@
 .plans .plan:nth-child(2) button {
    color: var(--orange);
 }
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .plans-container .programs-header {
+        font-size: x-large;
+        display: inline-block;
+    }
+    .plans-container .programs-header span {
+       margin-right: 5px;
+    }
+    .plans-container .plans {
+        flex-direction: column;
+    }
+    .plans .plan:nth-child(2) {
+        transform: none;
+    }
+}

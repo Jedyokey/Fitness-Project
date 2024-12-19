@@ -4,15 +4,16 @@ import emailjs from "@emailjs/browser"
 
 const Join = () => {
     const form = useRef();
-    emailjs.init('Znnm1JpbVrsrym_WX'); // Initialize EmailJS with Public Key
+    // emailjs.init('Znnm1JpbVrsrym_WX'); // Initialize EmailJS with Public Key
 
 
     const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_fefh6dv', 'template_4l5hml6', form.current, {
+          .sendForm('service_fgajvvk', 'template_chhrebm', form.current, {
             publicKey: 'Znnm1JpbVrsrym_WX',
+            
           })
           .then(
             () => {
